@@ -9,7 +9,7 @@ The diagram illustrates a modern e-commerce system implemented using a microserv
 
 ### Core Microservices
 
-1. Customer Service: Manages customer data and profiles
+-  Customer Service: Manages customer data and profiles
 
 - Product Service: Handles product catalog and inventory
 
@@ -21,9 +21,9 @@ The diagram illustrates a modern e-commerce system implemented using a microserv
 
 ### Infrastructure Components
 
-- API Gateway: Entry point for all client requests, routes to appropriate services
+- API Gateway: Entrypoint for all client requests, routes to appropriate services
 
-2. MongoDB Instances: NoSQL databases for each service (Customer, Product, Order)
+- DB Instances: MongoDB and PostgreSQL databases for each service (Customer, Product, Order)
 
 - Kafka: Message broker for asynchronous communication
 
@@ -123,7 +123,7 @@ The diagram illustrates a modern e-commerce system implemented using a microserv
 
 ## Benefits of This Architecture
 
-1. Scalability: Services can scale independently based on demand
+-  Scalability: Services can scale independently based on demand
 
 - Resilience: Failure in one service doesn't bring down the entire system
 
